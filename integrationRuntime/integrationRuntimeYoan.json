@@ -1,0 +1,6 @@
+{
+	"name": "integrationRuntimeYoan",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
