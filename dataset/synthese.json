@@ -5,6 +5,9 @@
 			"referenceName": "FileServer1",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "pipeline2"
+		},
 		"annotations": [],
 		"type": "Json",
 		"typeProperties": {
