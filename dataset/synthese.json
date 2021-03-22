@@ -1,0 +1,37 @@
+{
+	"name": "synthese",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "donnees-carte-synthese-tricolore.json"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"date": {
+					"type": "string"
+				},
+				"codeDepartement": {
+					"type": "string"
+				},
+				"nomDepartement": {
+					"type": "string"
+				},
+				"nomRegion": {
+					"type": "string"
+				},
+				"indicateurSynthese": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
