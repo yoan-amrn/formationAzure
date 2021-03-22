@@ -1,0 +1,42 @@
+{
+	"name": "vaccins",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "pipeline2"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "vacsi-pro-tot-dep-2021-03-18-17h25.csv"
+			},
+			"columnDelimiter": ";",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "dep",
+				"type": "String"
+			},
+			{
+				"name": "jour",
+				"type": "String"
+			},
+			{
+				"name": "pro_vac_tot_dose1",
+				"type": "String"
+			},
+			{
+				"name": "pro_vac_tot_dose2",
+				"type": "String"
+			}
+		]
+	}
+}

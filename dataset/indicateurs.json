@@ -1,0 +1,86 @@
+{
+	"name": "indicateurs",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "pipeline2"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "table-indicateurs-open-data-dep-serie.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "extract_date",
+				"type": "String"
+			},
+			{
+				"name": "departement",
+				"type": "String"
+			},
+			{
+				"name": "region",
+				"type": "String"
+			},
+			{
+				"name": "libelle_reg",
+				"type": "String"
+			},
+			{
+				"name": "libelle_dep",
+				"type": "String"
+			},
+			{
+				"name": "tx_incid",
+				"type": "String"
+			},
+			{
+				"name": "R",
+				"type": "String"
+			},
+			{
+				"name": "taux_occupation_sae",
+				"type": "String"
+			},
+			{
+				"name": "tx_pos",
+				"type": "String"
+			},
+			{
+				"name": "tx_incid_couleur",
+				"type": "String"
+			},
+			{
+				"name": "R_couleur",
+				"type": "String"
+			},
+			{
+				"name": "taux_occupation_sae_couleur",
+				"type": "String"
+			},
+			{
+				"name": "tx_pos_couleur",
+				"type": "String"
+			},
+			{
+				"name": "nb_orange",
+				"type": "String"
+			},
+			{
+				"name": "nb_rouge",
+				"type": "String"
+			}
+		]
+	}
+}

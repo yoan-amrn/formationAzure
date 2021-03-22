@@ -1,0 +1,62 @@
+{
+	"name": "activite_partielle",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "pipeline2"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "activite-partielle-regional-nace17-latest.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "dispositif",
+				"type": "String"
+			},
+			{
+				"name": "nombre_demandes_deposees",
+				"type": "String"
+			},
+			{
+				"name": "nombre_salaries_concernes",
+				"type": "String"
+			},
+			{
+				"name": "nombre_heures_demandees",
+				"type": "String"
+			},
+			{
+				"name": "reg",
+				"type": "String"
+			},
+			{
+				"name": "libelle_region",
+				"type": "String"
+			},
+			{
+				"name": "code_section_nace17",
+				"type": "String"
+			},
+			{
+				"name": "libelle_section_nace17",
+				"type": "String"
+			},
+			{
+				"name": "date_maj",
+				"type": "String"
+			}
+		]
+	}
+}

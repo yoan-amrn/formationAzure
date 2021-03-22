@@ -1,0 +1,9 @@
+{
+	"name": "formationdatafactoryyoan",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "026dde30-e5eb-4c36-83f0-c40b2f9b6106",
+		"tenantId": "544fe47f-5772-488f-81a9-fa9de607ecfa"
+	}
+}

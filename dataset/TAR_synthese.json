@@ -1,0 +1,21 @@
+{
+	"name": "TAR_synthese",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "pipeline2"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "rawdata"
+			}
+		},
+		"schema": {}
+	}
+}
