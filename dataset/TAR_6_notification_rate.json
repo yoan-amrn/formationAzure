@@ -10,8 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "4-covid-19-testing.csv",
-				"folderPath": "rawdata",
+				"fileName": "6-day-age-notification-rate-new-cases.csv",
 				"fileSystem": "rawdata"
 			},
 			"columnDelimiter": ",",
